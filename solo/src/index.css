@@ -1,0 +1,79 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+@font-face {
+  font-family: 'Metropolis-Regular';
+  src: url('./components/assets/fonts/Metropolis-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Metropolis-Medium';
+  src: url('./components/assets/fonts/Metropolis-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Metropolis-SemiBold';
+  src: url('./components/assets/fonts/Metropolis-SemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Metropolis-Bold';
+  src: url('./components/assets/fonts/Metropolis-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Metropolis-ExtraBold';
+  src: url('./components/assets/fonts/Metropolis-ExtraBold.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+main {
+font-family: 'Metropolis-Regular';
+}
+
+.content-container {
+  margin-left: 240px;
+  margin-right: 240px;
+}
+
+nav {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.app-container {
+  background-color: #111111;
+}
+
+.text-header {
+  margin-top: 120px;
+}
+
+.Ellipse-33 {
+  justify-content: flex-start;
+  z-index: -1;
+  position: absolute;
+  width: 562px;
+  height: 316px;
+  margin: 0 17px 120px 0;
+  padding: 63px 25px 236px 479px;
+  -webkit-filter: blur(189.6px);
+  filter: blur(150.6px);
+  background-color: rgba(151, 71, 255, 0.30);
+}
