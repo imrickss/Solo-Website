@@ -15,7 +15,7 @@ export default function App() {
 
   return (
     
-    <Navbar onMenuOpenChange={setIsMenuOpen} className="dark bg-solo text-white" position="static" >
+    <Navbar onMenuOpenChange={setIsMenuOpen} className="bg-transparent text-white" position="static" maxWidth="xl" >
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}

@@ -48,17 +48,16 @@ font-family: 'Metropolis-Regular';
 }
 
 .content-container {
-  margin-left: 240px;
-  margin-right: 240px;
+  margin-top: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
 }
 
 nav {
+  position: relative;
+  z-index: 2;
   margin-left: 0;
   margin-right: 0;
-}
-
-.app-container {
-  background-color: #111111;
 }
 
 .text-header {
@@ -67,7 +66,6 @@ nav {
 
 .Ellipse-33 {
   justify-content: flex-start;
-  z-index: -1;
   position: absolute;
   width: 562px;
   height: 316px;
@@ -77,3 +75,39 @@ nav {
   filter: blur(150.6px);
   background-color: rgba(151, 71, 255, 0.30);
 }
+
+.app-container {
+  background-color: #111111;
+  z-index: 0; /* Garante que o .app-container esteja atrás do .Ellipse-34 */
+ }
+ 
+ .Ellipse-34 {
+  position: absolute;
+  z-index: 0; /* Ajuste conforme necessário */
+
+  padding: 496px 80px 65px 173px;
+  -webkit-filter: blur(283.5px);
+  filter: blur(283.5px);
+  background-color: rgba(158, 0, 255, 0.45);
+ }
+ .Ellipse-35 {
+  z-index: 0;
+  position: absolute;
+  width: 412px;
+  height: 743px;
+  -webkit-filter: blur(316.2px);
+  filter: blur(316.2px);
+  background-color: rgba(20, 114, 255, 0.52);
+  justify-content: end;
+
+}
+ 
+ .sections {
+  position: relative; /* Adiciona posicionamento relativo */
+  z-index: 2;
+ }
+ 
+ header {
+  z-index: 1;
+  position: relative;
+ }

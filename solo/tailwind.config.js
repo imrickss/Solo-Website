@@ -9,6 +9,9 @@ export default {
   ],
   theme: {
     extend: {
+      maxWidth: {
+        '615': '615px'
+      },
       colors: {
         'solo': '#111111',
         'blue': '#1472FF',
